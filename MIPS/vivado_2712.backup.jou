@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 27 12:15:12 2017
+# Process ID: 2712
+# Current directory: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1416 C:\Users\Wtp\Desktop\UTCN\An 2\Semestru 2\CA\project_1a\project_1.xpr
+# Log file: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/vivado.log
+# Journal file: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.xpr}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1

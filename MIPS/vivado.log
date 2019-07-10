@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 17 18:12:03 2017
+# Process ID: 5796
+# Current directory: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9188 C:\Users\Wtp\Desktop\UTCN\An 2\Semestru 2\CA\project_1a\project_1.xpr
+# Log file: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/vivado.log
+# Journal file: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.4/data/ip'.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/mps.vhd" into library xil_defaultlib [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/mps.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/seg7.vhd" into library xil_defaultlib [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/seg7.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd" into library xil_defaultlib [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1]
+[Wed May 17 18:12:42 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 17 18:13:34 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 17 18:14:55 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/impl_1/runme.log
+remove_files  -fileset constrs_1 {{C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/basys3.xdc}}
+add_files -fileset constrs_1 -norecurse {{C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/basys3.xdc}}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/mps.vhd" into library xil_defaultlib [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/mps.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/seg7.vhd" into library xil_defaultlib [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/seg7.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd" into library xil_defaultlib [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1]
+[Wed May 17 18:16:52 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 17 18:17:34 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 17 18:18:43 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 17 18:19:35 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/synth_1/runme.log
+[Wed May 17 18:19:35 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.4
+  **** Build date : Jan 23 2017-19:37:29
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183795623A
+set_property PROGRAM.FILE {C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/impl_1/proj1_test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/impl_1/proj1_test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 17 18:33:35 2017...

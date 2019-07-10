@@ -1,0 +1,392 @@
+
+*** Running vivado
+    with args -log proj1_test.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source proj1_test.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source proj1_test.tcl -notrace
+Command: synth_design -top proj1_test -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3016 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 282.137 ; gain = 72.094
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/seg7.vhd:54]
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/seg7.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'proj1_test' [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:708]
+INFO: [Synth 8-3491] module 'proj1' declared at 'C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/mps.vhd:35' bound to instance 'proj11' of component 'proj1' [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:840]
+INFO: [Synth 8-638] synthesizing module 'proj1' [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/mps.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'proj1' (1#1) [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/mps.vhd:41]
+INFO: [Synth 8-3491] module 'seg7' declared at 'C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/seg7.vhd:35' bound to instance 'p2' of component 'seg7' [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:841]
+INFO: [Synth 8-638] synthesizing module 'seg7' [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/seg7.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'seg7' (2#1) [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/seg7.vhd:42]
+WARNING: [Synth 8-614] signal 'sw' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:844]
+INFO: [Synth 8-226] default block is never used [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:856]
+WARNING: [Synth 8-614] signal 'en' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:877]
+WARNING: [Synth 8-614] signal 'tx_data' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:901]
+WARNING: [Synth 8-614] signal 'bit_count' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:901]
+WARNING: [Synth 8-614] signal 'rom_data' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1086]
+WARNING: [Synth 8-614] signal 'cnt' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1086]
+WARNING: [Synth 8-614] signal 'rd1' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1086]
+WARNING: [Synth 8-614] signal 'rd2' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1086]
+WARNING: [Synth 8-614] signal 'ext' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1086]
+WARNING: [Synth 8-614] signal 'alures' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1086]
+WARNING: [Synth 8-614] signal 'ram_out' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1086]
+WARNING: [Synth 8-614] signal 'wd' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1086]
+WARNING: [Synth 8-614] signal 'a' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1119]
+WARNING: [Synth 8-614] signal 'b' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1119]
+WARNING: [Synth 8-614] signal 'alures' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1119]
+WARNING: [Synth 8-614] signal 'sa' is read in the process but is not in the sensitivity list [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1119]
+INFO: [Synth 8-256] done synthesizing module 'proj1_test' (3#1) [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:708]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 318.465 ; gain = 108.422
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 318.465 ; gain = 108.422
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/basys3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'rx'. [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/basys3.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/basys3.xdc:122]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rx'. [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/basys3.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/basys3.xdc:123]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/proj1_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/proj1_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 612.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 612.875 ; gain = 402.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 612.875 ; gain = 402.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 612.875 ; gain = 402.832
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1121]
+INFO: [Synth 8-5544] ROM "branch_add" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "rom" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'z_reg' [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:967]
+WARNING: [Synth 8-327] inferring latch for variable 'branch_add_reg' [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:968]
+WARNING: [Synth 8-327] inferring latch for variable 'aluop_reg' [C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.srcs/sources_1/new/test_env1.vhd:1019]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 612.875 ; gain = 402.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---RAMs : 
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	 257 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 6     
+	   8 Input     16 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 3     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 9     
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module proj1_test 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---RAMs : 
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	 257 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 6     
+	   8 Input     16 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 9     
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module proj1 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 3     
+Module seg7 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (proj11/q0_reg[0]) is unused and will be removed from module proj1_test.
+WARNING: [Synth 8-3332] Sequential element (proj11/q1_reg[0]) is unused and will be removed from module proj1_test.
+WARNING: [Synth 8-3332] Sequential element (proj11/q2_reg[0]) is unused and will be removed from module proj1_test.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 612.875 ; gain = 402.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+------------+-----------+----------------------+------------------+
+|Module Name | RTL Object | Inference | Size (Depth x Width) | Primitives       | 
++------------+------------+-----------+----------------------+------------------+
+|proj1_test  | reg_reg    | Implied   | 8 x 16               | RAM32M x 6       | 
+|proj1_test  | ram_reg    | Implied   | 256 x 16             | RAM256X1S x 16   | 
++------------+------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 612.875 ; gain = 402.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 612.875 ; gain = 402.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:41 . Memory (MB): peak = 636.277 ; gain = 426.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 636.277 ; gain = 426.234
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 636.277 ; gain = 426.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 636.277 ; gain = 426.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 636.277 ; gain = 426.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 636.277 ; gain = 426.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 636.277 ; gain = 426.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    20|
+|3     |LUT1      |    58|
+|4     |LUT2      |    15|
+|5     |LUT3      |     8|
+|6     |LUT4      |    36|
+|7     |LUT5      |    87|
+|8     |LUT6      |   106|
+|9     |MUXF7     |     9|
+|10    |RAM256X1S |    16|
+|11    |RAM32M    |     6|
+|12    |FDCE      |     2|
+|13    |FDRE      |    77|
+|14    |LD        |    11|
+|15    |IBUF      |    21|
+|16    |OBUF      |    28|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   501|
+|2     |  proj11 |proj1  |    84|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 636.277 ; gain = 426.234
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 636.277 ; gain = 131.824
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:42 . Memory (MB): peak = 636.277 ; gain = 426.234
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 74 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 3 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 33 instances were transformed.
+  LD => LDCE: 8 instances
+  LD => LDCE (inverted pins: G): 3 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 16 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 26 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:41 . Memory (MB): peak = 636.277 ; gain = 426.234
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Wtp/Desktop/UTCN/An 2/Semestru 2/CA/project_1a/project_1.runs/synth_1/proj1_test.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 636.277 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 22 23:34:22 2017...
